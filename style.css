@@ -1,0 +1,192 @@
+nav{
+}
+.NAV-1 li a{
+color: rgba(0, 0, 0, 0.942);
+font-size: 21px;
+}
+.NAV-1 li a:hover{
+background-color: rgba(0, 0, 0, 0.455);
+}
+.navBar span{
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    padding-right: 16px;
+}
+@media (max-width: 768px) {
+    .NAV-1 {
+display: none;
+    }
+  }
+  .bb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bb img{
+width: 99%;
+    height: 100vh;
+border-radius: 10px;
+z-index: -1;
+  }
+  @media (max-width: 768px) {
+    .bb img{
+        height: 250px;
+        width: 85%;
+        margin-right: 35px;
+    }
+  }
+  .bb h1 {
+    position: absolute;
+color: white;
+  }
+  .bb h1 span{
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.429);
+
+  }
+
+  .phras h1{
+    margin-left: 28px;
+    margin-top: 80px;
+    font-size: 20px;
+  }
+  .phras hr{
+    margin-left: 30px;
+  }
+  .photo{
+/* position: relative; */
+margin-top: 30px;
+margin-left: 34px;
+margin-right: 40px;
+overflow: hidden;
+  }
+  .photo1{
+    width: 18rem;
+
+  }
+  .photo1 img{
+    width: 21rem;
+    /* position: relative;
+    z-index: -1; */
+    margin-bottom: 20px;
+  }
+  .photo h3{
+    position: absolute;
+    top: 0;
+    color: white;
+    background-color: #000000a2;
+    padding: 7px;
+    font-size: 18px;
+  }
+  .about{
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .about button{
+    background-color: black;
+    padding: 5px;
+    width: 100px;
+    font-size: 20px;
+  }
+  .lorem{
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.677);
+    font-weight: bold;
+    margin-left: 13px;
+  }
+  .CARD{
+    overflow: hidden;
+    margin-left: 14px;
+    position: relative;
+  }
+  @media (max-width: 768px) {
+    .CARD{
+
+margin-left: 60px;
+    }
+  }
+  .CARD1{
+    width: 300px;
+    border-radius: 0;
+  }
+  .CARD1 img{
+    border-radius: 0;
+    width: 100%;
+
+  }
+  .CARD1 h5{
+    font-size: 23px;
+  }
+  .CARD1 span{
+    color: rgba(0, 0, 0, 0.526);
+    font-size: 18px;
+  }
+  .CARD1 p{
+    margin-top: 15px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.764);
+    font-weight: bold;
+  }
+  .CARD1 a{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.612);
+    color: black;
+  }
+.contact{
+  margin-top: 35px;
+ position: relative;
+ left: 40%;
+ border: none;
+ width: 250px;
+ padding: 15px;
+ background-color: darkcyan;
+}
+.car{
+  margin-left: 30px;
+  margin-right: 20px;
+}
+@media (max-width: 768px) {
+  .contact{
+    left: 15%;
+  }
+}
+form button{
+border: none;
+width: 250px;
+background-color: black;
+color: white;
+}
+form button:hover{
+  background-color: #0000007b;
+}
+.EMo{
+  margin-top: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.EMo img{
+  width: 97%;
+      height: 100vh;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+    }
+    @media (max-width: 768px) {
+      .EMo img{
+          height: 250px;
+          width: 80%;
+right: 5px;
+          border-radius: 0;
+          margin-right: 35px;
+      }
+    }
+footer{
+  margin-top: 15px;
+  background-color: black;
+  padding: 15px;
+  color: white; 
+}
